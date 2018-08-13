@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="242f7d99-c721-42fe-818b-9bd1fa78038c" name="Default" comment="" />
+    <list default="true" id="242f7d99-c721-42fe-818b-9bd1fa78038c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../_2018udemy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2018udemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_2018udemy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_2018udemy/src/main/java/com/siwoo/nio/PathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_2018udemy/src/main/java/com/siwoo/nio/PathMain.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +66,8 @@
       <file leaf-file-name="PathMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../_2018udemy/src/main/java/com/siwoo/nio/PathMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="507">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../_2018udemy" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -160,6 +167,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -274,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PathMain">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.siwoo.collection.Main" />
       <module name="_2018udemy" />
@@ -282,6 +290,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.siwoo.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PathMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.nio.PathMain" />
+      <module name="_2018udemy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.siwoo.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,8 +346,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.PathMain" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathMain" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -344,12 +368,20 @@
       <option name="presentableId" value="Default" />
       <updated>1534041462501</updated>
       <workItem from="1534041467688" duration="6494000" />
-      <workItem from="1534122558951" duration="873000" />
+      <workItem from="1534122558951" duration="2105000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1534123506920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534123506920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7367000" />
+    <option name="totallyTimeSpent" value="8599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -358,16 +390,17 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925585" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33027524" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -381,7 +414,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925585" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +421,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../_2018udemy/pom.xml">
@@ -498,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../_2018udemy/src/main/java/com/siwoo/nio/PathMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        <state relative-caret-position="507">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
